@@ -1,0 +1,1 @@
+oh-my-posh init pwsh --config 'C:\Users\ave\AppData\Local\Programs\oh-my-posh\themes\tokyonight_storm.omp.json' | Invoke-Expression

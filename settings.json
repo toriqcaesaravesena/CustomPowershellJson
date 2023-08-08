@@ -42,8 +42,8 @@
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "initialCols": 129,
     "initialPosition": "38,62",
-    "initialRows": 29,
-    "launchMode": "focus",
+    "initialRows": 30,
+    "launchMode": "default",
     "newTabMenu": 
     [
         {
@@ -54,16 +54,16 @@
     {
         "defaults": 
         {
-            "backgroundImage": "C:\\Users\\ave\\wallpaper\\first-collection\\windows.png",
+            "backgroundImage": null,
             "backgroundImageOpacity": 0.03,
-            "colorScheme": "One Half Dark",
+            "colorScheme": "TokyoNight",
             "experimental.retroTerminalEffect": false,
             "font": 
             {
                 "face": "FiraMono Nerd Font Mono",
                 "size": 14.0
             },
-            "opacity": 100,
+            "opacity": 91,
             "startingDirectory": "%USERPROFILE%",
             "useAcrylic": true
         },
@@ -92,6 +92,19 @@
                 "hidden": false,
                 "name": "PowerShell",
                 "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "background": "#350425",
+                "commandline": "multipass shell",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "Ubuntu Mono"
+                },
+                "guid": "{aaaa9e6d-1e09-4be6-b76c-82b4ba1885fb}",
+                "historySize": 50000,
+                "icon": "C:/Program Files/Multipass/bin/multipass_wt.ico",
+                "name": "Multipass"
             }
         ]
     },
@@ -165,6 +178,29 @@
             "selectionBackground": "#44475A",
             "white": "#F8F8F2",
             "yellow": "#F1FA8C"
+        },
+        {
+            "background": "#282828",
+            "black": "#282828",
+            "blue": "#458588",
+            "brightBlack": "#928374",
+            "brightBlue": "#83A598",
+            "brightCyan": "#8EC07C",
+            "brightGreen": "#B8BB26",
+            "brightPurple": "#D3869B",
+            "brightRed": "#FB4934",
+            "brightWhite": "#EBDBB2",
+            "brightYellow": "#FABD2F",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#689D6A",
+            "foreground": "#EBDBB2",
+            "green": "#98971A",
+            "name": "Gruvbox Dark",
+            "purple": "#B16286",
+            "red": "#CC241D",
+            "selectionBackground": "#FFFFFF",
+            "white": "#A89984",
+            "yellow": "#D79921"
         },
         {
             "background": "#282C34",
@@ -328,6 +364,52 @@
             "yellow": "#C4A000"
         },
         {
+            "background": "#16161E",
+            "black": "#363B54",
+            "blue": "#7AA2F7",
+            "brightBlack": "#363B54",
+            "brightBlue": "#7AA2F7",
+            "brightCyan": "#7DCFFF",
+            "brightGreen": "#41A6B5",
+            "brightPurple": "#BB9AF7",
+            "brightRed": "#F7768E",
+            "brightWhite": "#ACB0D0",
+            "brightYellow": "#E0AF68",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#7DCFFF",
+            "foreground": "#787C99",
+            "green": "#41A6B5",
+            "name": "TokyoNight",
+            "purple": "#BB9AF7",
+            "red": "#F7768E",
+            "selectionBackground": "#FFFFFF",
+            "white": "#787C99",
+            "yellow": "#E0AF68"
+        },
+        {
+            "background": "#1F2335",
+            "black": "#3B4261",
+            "blue": "#7AA2F7",
+            "brightBlack": "#3B4261",
+            "brightBlue": "#7AA2F7",
+            "brightCyan": "#7DCFFF",
+            "brightGreen": "#73DACA",
+            "brightPurple": "#BB9AF7",
+            "brightRed": "#F7768E",
+            "brightWhite": "#A9B1D6",
+            "brightYellow": "#E0AF68",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#7DCFFF",
+            "foreground": "#7982A9",
+            "green": "#73DACA",
+            "name": "TokyoNightStorm",
+            "purple": "#BB9AF7",
+            "red": "#F7768E",
+            "selectionBackground": "#FFFFFF",
+            "white": "#7982A9",
+            "yellow": "#E0AF68"
+        },
+        {
             "background": "#000000",
             "black": "#000000",
             "blue": "#000080",
@@ -349,6 +431,52 @@
             "selectionBackground": "#FFFFFF",
             "white": "#C0C0C0",
             "yellow": "#808000"
+        },
+        {
+            "background": "#1A1B26",
+            "black": "#15161E",
+            "blue": "#7AA2F7",
+            "brightBlack": "#414868",
+            "brightBlue": "#7AA2F7",
+            "brightCyan": "#7DCFFF",
+            "brightGreen": "#9ECE6A",
+            "brightPurple": "#BB9AF7",
+            "brightRed": "#F7768E",
+            "brightWhite": "#C0CAF5",
+            "brightYellow": "#E0AF68",
+            "cursorColor": "#C0CAF5",
+            "cyan": "#7DCFFF",
+            "foreground": "#C0CAF5",
+            "green": "#9ECE6A",
+            "name": "tokyonight",
+            "purple": "#BB9AF7",
+            "red": "#F7768E",
+            "selectionBackground": "#33467C",
+            "white": "#A9B1D6",
+            "yellow": "#E0AF68"
+        },
+        {
+            "background": "#24283B",
+            "black": "#1D202F",
+            "blue": "#7AA2F7",
+            "brightBlack": "#414868",
+            "brightBlue": "#7AA2F7",
+            "brightCyan": "#7DCFFF",
+            "brightGreen": "#9ECE6A",
+            "brightPurple": "#BB9AF7",
+            "brightRed": "#F7768E",
+            "brightWhite": "#C0CAF5",
+            "brightYellow": "#E0AF68",
+            "cursorColor": "#C0CAF5",
+            "cyan": "#7DCFFF",
+            "foreground": "#C0CAF5",
+            "green": "#9ECE6A",
+            "name": "tokyonight-storm",
+            "purple": "#BB9AF7",
+            "red": "#F7768E",
+            "selectionBackground": "#364A82",
+            "white": "#A9B1D6",
+            "yellow": "#E0AF68"
         }
     ],
     "themes": 
